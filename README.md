@@ -40,7 +40,7 @@ $ i18n-cli getlang <src> -f <filename> -d <dir> -i <ignoredir>
 + filename 为生成的语言文件的文件名，必须为json格式， 默认为zh_cn.json
 + dir 为要收集的文件目录, 默认为 [pages, components]
 + ignoredir 为 dir 目录下被忽略的文件目录
-
+注:可能会出现找不到 commander模块,全局安装commander模块即可:npm install commander -g --save
 如输入下面的指令后会从 pages,components 目录中提取 js 及 vue 文件内的中文并生成一个 zh.json 文件
 
 ```js
